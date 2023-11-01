@@ -1,0 +1,173 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+  .animated-text {
+    font-size: 32px;
+    animation: colorAnimation 5s infinite;
+    font-size:4.5rem;
+    font-family: 'Signika Negative', sans-serif;
+  }
+    @keyframes colorAnimation {
+            0% {
+                color: red;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: orange;
+            }
+            100% {
+                color: purple;
+            }
+    }
+  .logo{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: x-large;
+    color: white;
+  }
+  .profession{
+    font-size:larger;
+    font-family: 'Russo One', sans-serif;
+    text-align-last: center;
+    color:#6200ed;
+  }
+  .navbar{
+    box-shadow:0px 0px 50px white;
+    background-color: black;
+  }
+  .head-purple{
+    font-size:xx-large;
+    font-family: 'Russo One', sans-serif;
+    text-align-last: center;
+    color:#6200ed;
+  }
+  .sliding-heading {
+    font-size: 36px;
+    animation: slide 4s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+  
+    @keyframes slide {
+            0% {
+                transform: translateX(200%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+    }
+  .head-white{
+    font-size:xx-large;
+    font-family: 'Russo One', sans-serif;
+    text-align-last: center;
+    color:white;
+  }
+  .about-text{
+    color: white;
+    text-align:justify;
+    word-spacing:1px;
+    font-size:x-large;
+    font-family: 'Mooli', sans-serif;
+  }
+  .resume-view{
+    background-color:#6200ed;
+    border: 2px solid white;
+    color: white;
+  }
+  .resume-view:hover{
+    background-color:white;
+    border: 2px solid #6200ed;
+    color:#6200ed;
+  }
+  .edu1{
+    font-size:x-large;
+    font-weight: bolder;
+    font-family: 'Signika Negative', sans-serif;
+    color:#6200ed;
+  }
+  .edu2{
+    font-size:large;
+    color:white;
+    font-family:'Mooli', sans-serif ;
+  }
+  .edu3{
+    color:white;
+    font-family:'Mooli', sans-serif ;
+  }
+  .card{
+    background-color: black;
+    border: 1px solid white;
+  }
+  .card-title{
+    font-family: 'Mooli', sans-serif;
+  }
+  .contact{
+    font-family:'Mooli', sans-serif;
+    color: white;
+  }
+  .nav-link:hover{
+    border: 2px solid #6200ed;
+    width:fit-content;
+    padding:2px;
+    border-radius: 10px;
+  }
+  .navli{
+    font-family:'Mooli', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  .logo:hover{
+    color:#6200ed;
+  }
+  .cred-btn{
+    background-color: #6200ed;
+    border: 2px solid white;
+    color: white;
+  }
+  .cred-btn:hover{
+    background-color:white;
+    border: 2px solid #6200ed;
+    color:#6200ed;
+  }
+  
+  .carousel-head{
+    font-size:xx-large;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+  }
+  .carousel-body{
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+  }
+  .contact-form{
+    font-family:'Mooli', sans-serif;
+    font-size:x-large;
+    color: blueviolet;
+  }
+  label{
+    font-family:'Mooli', sans-serif;
+    font-size: large;
+    color:white;
+  }
+  .submit-btn{
+    width:100px;
+    font-family:'Mooli', sans-serif;
+    background-color: bisque;
+    border: 2px solid black;
+  }
+  .submit-btn:hover{
+    width:100px;
+    font-family:'Mooli', sans-serif;
+    background-color:#6200ed;
+    color: white;
+    border: 2px solid white;
+  }
+  
